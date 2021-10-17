@@ -1,0 +1,18 @@
+.container {
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
