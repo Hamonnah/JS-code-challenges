@@ -10,11 +10,21 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1 class="display-4 text-center">The Star Wars Universe</h1>
+    </header>
+    
     <div class="container">
-        <button id="fetch" class="btn btn-primary btn-lg" >Get The List Of Star Wars Planets</button>
-        <button id="sort" class="btn btn-primary btn-lg hide">Sort</button>
-        <ul id="swapi-list" class="list-group list-group-flush">
-        </ul>
+        <div class="buttons text-center">
+            <button id="fetch" class="btn btn-primary btn-lg" >Get The List Of Star Wars Planets</button>
+            <button id="sort" class="btn btn-primary btn-lg hide">Sort</button>
+        </div>
+        
+        <div class="list">
+            <ul id="swapi-list" class="list-group list-group-flush text-start">
+            </ul>
+        </div>
+       
     </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"

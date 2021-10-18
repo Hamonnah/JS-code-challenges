@@ -1,5 +1,4 @@
 .container {
-    margin-top: 30px;
     box-sizing: border-box;
     width: 60%;
     padding: 60px;
@@ -15,4 +14,10 @@ ul {
 
 .show {
     display: inline-block;
+}
+
+h1 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 60px 60px 0px 60px;
 }
